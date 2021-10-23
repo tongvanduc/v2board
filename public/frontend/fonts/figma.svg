@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="263px" height="98px" viewBox="0 0 263 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>figma</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="263" height="237"></rect>
+        <filter x="-3.4%" y="-2.5%" width="106.8%" height="107.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.123630764 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="桌面端-HD备份-3" transform="translate(-44.000000, -1594.000000)">
+            <g id="矩形" transform="translate(44.000000, 1594.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="蒙版">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect fill="#202020" mask="url(#mask-2)" x="-4" y="-2" width="272" height="100"></rect>
+                <g id="figma-1-2" mask="url(#mask-2)">
+                    <g transform="translate(112.000000, 18.000000)" id="figma-1">
+                        <path d="M10.08,60.48 C15.64416,60.48 20.16,55.96416 20.16,50.4 L20.16,40.32 L10.08,40.32 C4.51584,40.32 0,44.83584 0,50.4 C0,55.96416 4.51584,60.48 10.08,60.48 Z" id="path0_fill" fill="#0ACF83" fill-rule="nonzero"></path>
+                        <path d="M0,30.24 C0,24.67584 4.51584,20.16 10.08,20.16 L20.16,20.16 L20.16,40.32 L10.08,40.32 C4.51584,40.32 0,35.80416 0,30.24 Z" id="path1_fill" fill="#A259FF" fill-rule="nonzero"></path>
+                        <path d="M0,10.08 C0,4.51584 4.51584,0 10.08,0 L20.16,0 L20.16,20.16 L10.08,20.16 C4.51584,20.16 0,15.64416 0,10.08 Z" id="path1_fill_1_" fill="#F24E1E" fill-rule="nonzero"></path>
+                        <path d="M20.16,0 L30.24,0 C35.80416,0 40.32,4.51584 40.32,10.08 C40.32,15.64416 35.80416,20.16 30.24,20.16 L20.16,20.16 L20.16,0 Z" id="path2_fill" fill="#FF7262" fill-rule="nonzero"></path>
+                        <path d="M40.32,30.24 C40.32,35.80416 35.80416,40.32 30.24,40.32 C24.67584,40.32 20.16,35.80416 20.16,30.24 C20.16,24.67584 24.67584,20.16 30.24,20.16 C35.80416,20.16 40.32,24.67584 40.32,30.24 Z" id="path3_fill" fill="#1ABCFE" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

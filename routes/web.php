@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +32,7 @@ Route::get('/', function (Request $request) {
         'crisp_id' => config('v2board.frontend_customer_service_method') === 'crisp' ? config('v2board.frontend_customer_service_id') : ''
     ];
     return view('theme::' . config('v2board.frontend_theme', 'v2board') . '.dashboard', $renderParams);
-});
+})->name('web.index');
 
 Route::get('/' . config('v2board.frontend_admin_path', 'admin'), function () {
     return view('admin', [

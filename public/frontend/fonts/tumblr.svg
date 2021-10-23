@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="263px" height="98px" viewBox="0 0 263 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tumblr</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="263" height="237"></rect>
+        <filter x="-3.4%" y="-2.5%" width="106.8%" height="107.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.123630764 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="桌面端-HD备份-3" transform="translate(-327.000000, -1116.000000)">
+            <g id="矩形" transform="translate(327.000000, 1116.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="蒙版">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect fill="#314358" fill-rule="nonzero" mask="url(#mask-2)" x="-4" y="-2" width="272" height="100"></rect>
+                <g id="tumblr-icon-seeklogo.com" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g transform="translate(118.000000, 23.000000)" id="路径">
+                        <path d="M26.5732998,39.9380269 C25.6350431,40.3814487 23.8410104,40.7672508 22.5026753,40.8004448 C18.4630205,40.9075424 17.6789805,37.9886619 17.6464306,35.8727005 L17.6464306,20.3075297 L27.7792235,20.3075297 L27.7792235,12.7367909 L17.6815086,12.7367909 L17.6815086,0 L10.2920658,0 C10.1703989,0 9.95803502,0.10553189 9.92801334,0.373276001 C9.49570107,4.27137974 7.65552977,11.113103 0,13.8487902 L0,20.3072165 L5.10684669,20.3072165 L5.10684669,36.6433651 C5.10684669,42.2371816 9.27069644,50.1840147 20.2627415,49.9967504 C23.9715257,49.9338071 28.0905009,48.3956093 29,47.0675359 L26.5732998,39.9380269"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,65 @@
+h1,h2,h3{
+    font-size: 28px;
+    font-family: PingFang SC, PingFang SC-Bold, sans-serif;
+    font-weight: bold;
+}
+.bg-d{
+    background-color: #dee2e6;
+}
+.border-radius-12{border-radius: 12px}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 250px;
+    transition: left .3s ease;
+    padding: 24px;
+    z-index: 101;
+}
+.sidebar .logo-sb {
+    width: 94px;
+}
+.nav-link.active{
+    background-color: transparent !important;
+    color: #49de94 !important;
+}
+/*===*/
+.main-content{
+    position: relative;
+    margin-left:250px;
+    transition: padding-left .3s ease;
+}
+.card {overflow: hidden;}
+.card h5, .card p {
+    font-family: PingFang SC, PingFang SC-Medium, sans-serif;
+    font-weight: 500;
+    text-align: LEFT;
+    color: #919191;
+}
+.card p{margin-bottom: 0}
+.card .olay{
+    position: absolute;
+    top:16px;right: 16px;
+    z-index: 2;
+}
+.card .olay span{
+    background: #1a1e21;color: #fff;
+    text-transform: uppercase;
+    padding: .2rem;
+    font-size: 14px;
+}
+.card .card-body .title{margin-bottom: 1rem;}
+.card .card-body .row .col.text-center {display: grid;}
+.card .card-body .row .col.text-center img{height: 93px;width: 100px; margin: 0 auto;}
+.card .card-body .row .col.text-center span{margin-top: 1rem;}
+.card .card-body .d-grid button{
+    margin-bottom: 8px;
+    background-color: #69bfbe !important;
+    border: transparent !important;
+}
+.card .card-body .bg-d{border-radius: 5px;}
+.card .card-body .bg-d p{
+    text-align: center;
+}

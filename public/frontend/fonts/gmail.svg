@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="263px" height="98px" viewBox="0 0 263 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gmail</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="263" height="237"></rect>
+        <filter x="-3.4%" y="-2.5%" width="106.8%" height="107.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.123630764 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-4" points="0 0.0407181373 66.9926776 0.0407181373 66.9926776 36.9972794 0 36.9972794"></polygon>
+        <polygon id="path-6" points="0 0.00639423077 51.9600353 0.00639423077 51.9600353 37.9918245 0 37.9918245"></polygon>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="桌面端-HD备份-3" transform="translate(-44.000000, -1116.000000)">
+            <g id="矩形" transform="translate(44.000000, 1116.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="蒙版">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect fill="#F8F8F8" mask="url(#mask-2)" x="-4" y="-2" width="272" height="100"></rect>
+                <g id="gmail-new-2020-seeklogo.com-4" mask="url(#mask-2)">
+                    <g transform="translate(99.000000, 23.000000)">
+                        <g id="编组" stroke-width="1" fill="none" transform="translate(0.000000, 13.000000)">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M4.56757855,37 L15.2259331,37 L15.2259331,11.3542843 L0,0.0407181373 L0,32.4745735 C0,34.9740686 2.04491872,37 4.56757855,37" id="Fill-1" fill="#4D71AA" mask="url(#mask-5)"></path>
+                            <path d="M51.7661954,37 L62.4248702,37 C64.9474385,37 66.9926776,34.9740686 66.9926776,32.4745735 L66.9926776,0.0407181373 L51.7661954,11.3542843 L51.7661954,37" id="Fill-3" fill="#2DA75D" mask="url(#mask-5)"></path>
+                        </g>
+                        <path d="M52,4.50029873 L52,24 L67,12.7493659 L67,6.75033536 C67,3.02226364 63.9779989,0 60.2499775,0 C58.7901476,0 57.3690902,0.473680057 56.2005049,1.35006707 L52,4.50029873" id="Fill-4" fill="#F3B537"></path>
+                        <g id="编组" stroke-width="1" fill="none">
+                            <mask id="mask-7" fill="white">
+                                <use xlink:href="#path-6"></use>
+                            </mask>
+                            <g id="Clip-6"></g>
+                            <polyline id="Fill-5" fill="#DE4B41" mask="url(#mask-7)" points="15.282947 24.3167115 15.282947 4.5652524 33.6217208 18.2403654 51.9600353 4.5652524 51.9600353 24.3167115 33.6217208 37.9918245 15.282947 24.3167115"></polyline>
+                            <path d="M0,6.84433894 L0,12.9208221 L15.282947,24.3167115 L15.282947,4.5652524 L11.0031449,1.37434856 C7.96468198,-0.891492788 3.65424028,-0.279245192 1.37538163,2.74184615 C0.482699647,3.92532692 0,5.36507933 0,6.84433894" id="Fill-7" fill="#B52D2F" mask="url(#mask-7)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

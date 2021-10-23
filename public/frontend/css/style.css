@@ -1,0 +1,500 @@
+body, html{
+    font-family: "PingFang SC", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.w-91{
+    width: 91px !important;
+    height: 36px !important;
+    background: #49de94;
+    border-radius: 99px;
+}
+a{
+    transition: all ease-in-out 0.3s 0.3s;
+}
+a:hover, a.nav-link:hover{
+    color: #49de94 !important;
+    transition: all ease-in-out 0.3s 0.3s;
+    cursor: pointer;
+}
+.btn{font-size: 16px;font-weight: 500}
+.btn-check:focus+.btn, .btn:focus{box-shadow: initial;}
+section{
+    padding: 86px 0;
+}
+#便捷的操作 .section-header, #便捷的操作 .section-header p, #便捷的操作 .section-header h2,
+#无理由退款 .section-header, #无理由退款 .section-header p, #无理由退款 .section-header h2,
+#免费提供会员账号 .section-header, #免费提供会员账号 .section-header p, #免费提供会员账号 .section-header h2 {text-align: left;}
+
+.section-header h2{
+    font-size: 36px;
+    font-family: PingFang SC, PingFang SC-Bold, sans-serif;
+    font-weight: 700;
+    text-align: CENTER;
+    color: #313437;
+    margin-bottom: 36px;
+}
+.section-header p{
+    font-size: 19px;
+    font-family: Roboto, Roboto-Regular, sans-serif;
+    font-weight: 400;
+    text-align: CENTER;
+    color: #313437;
+    margin-bottom: 49px;
+}
+.section-header span{
+    width: 453px;
+    height: 75px;
+    font-size: 18px;
+    font-family: PingFang SC, PingFang SC-Medium, sans-serif;
+    font-weight: 500;
+    text-align: LEFT;
+    color: #919191;
+}
+.section-header button{
+    margin-top: 12px;
+}
+.bg-w{
+    background-color: #F8F8F8 !important;
+}
+section .container{
+    max-width: 1140px;
+}
+/*Header*/
+header .navbar .nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 22.85;
+}
+header .navbar .nav-item .nav-link.active{
+    color: #49de94;
+    font-weight: bold;
+}
+.bg-gradient-green{
+    background-color: #49de94 !important;
+    color: #fff;
+    box-shadow: 0 3px 3px 0 #66cc8359, 0 3px 1px -2px hsl(137deg 50% 60% / 37%), 0 1px 5px 0 hsl(137deg 50% 15% / 30%);}
+/*Slider*/
+#slider{
+    position: relative;
+    overflow: hidden;
+}
+#slider .carousel-item img{
+    /* height: 717px; */
+    max-width: 100%;
+    max-height: 818vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 8;
+}
+#slider .carousel-caption {
+    text-align: left;
+    left: 4%;
+    bottom: 30%;
+    z-index: 10;
+}
+.min-vh-75 {
+    min-height: 75vh!important;
+}
+.bg-gradient-dark {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 717px;
+    opacity: 0.3;
+    -moz-opacity: 0.3;
+    background-image: linear-gradient(
+            195deg,#42424a,#191919);
+    -webkit-transition: opacity 400ms ease-out;
+    transition: opacity 400ms ease-out;
+    z-index: 8;
+
+}
+.app-info{
+    position: absolute;
+    color: #ffffff;
+    padding: 22px 18px;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    background: rgba(4,4,4,0.72);
+    z-index: 10;
+}
+.app-info .item-info img{
+    width: 22px !important;
+    height: 22px !important;
+    margin-right: 8px;
+}
+.app-info .item-info img span{
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+/*Section 适用场景*/
+
+#适用场景{
+    height: 394px;
+    background: #f8f8f8;
+    text-align: center;
+}
+#适用场景 .d-flex{
+    /*padding: 0 6rem;*/
+}
+#适用场景 .d-flex span{margin-right: 12px;}
+#适用场景 .d-flex span:last-child{
+    margin-right: 0;
+}
+#适用场景 .d-flex span img{
+    width: 47px;
+    height: 47px;
+}
+/*Section 我们的优势*/
+#我们的优势 .card{
+    border: initial;
+    /*display: initial;*/
+    /*width: 100%;*/
+}
+#我们的优势 .card img{
+    height: 199px;
+    width: 199px !important;
+    margin: 0 auto;
+}
+.card-img-overlay{color: #fff}
+#我们的优势 .card:hover:after{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition-delay: 0s;
+}
+
+#我们的优势 .card:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: transform 0.5s cubic-bezier(0.27, 0.16, 0.01, 0.99);
+    transform: scaleY(0);
+    transform-origin: top;
+    background: #000;
+    opacity: .7;
+    width: 100%;
+    height: 101%;
+}
+#我们的优势 .card .card-img-overlay{
+    display: none;
+    transition: transform 0.5s cubic-bezier(0.27, 0.16, 0.01, 0.99);
+}
+#我们的优势 .card:hover .card-img-overlay{
+    z-index: 9999;
+    display: block;
+    transition: transform 0.5s cubic-bezier(0.27, 0.16, 0.01, 0.99);
+    cursor: pointer;
+}
+#我们的优势 .card .card-body{}
+#我们的优势 .card .card-body .card-title{
+    font-size: 18px;
+    font-family: PingFang SC, PingFang SC-Bold, sans-serif;
+    font-weight: 700;
+    color: #313437;
+    text-align: center
+}
+/*Section 我们的优势*/
+#无理由退款 #carouselExampleIndicators{
+    height: 380px;
+}
+#无理由退款 .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #49de94;
+}
+#无理由退款 .carousel-indicators .active {
+    opacity: 1 !important;
+}
+
+#无理由退款 img{
+    height: 240px;
+    width: 240px;
+    margin: 0 auto;
+}
+#无理由退款 .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #49de94;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+#无理由退款{
+    /*height: 345px;*/
+    /*max-height: 345px;*/
+    position: relative;
+    overflow: hidden;
+}
+#无理由退款 .section-header p{
+    font-size: 15px;
+    font-family: PingFang SC, PingFang SC-Medium, sans-serif;
+    font-weight: 500;
+    color: #383c43;
+    margin-bottom: 11px;
+}
+#无理由退款 .section-header h2{
+    font-size: 28px;
+    font-family: PingFang SC, PingFang SC-Bold, sans-serif;
+    font-weight: 700;
+    color: #3b3e40;
+    margin-bottom: 8px;
+}
+#无理由退款 .section-header span{
+    width: 418px;
+    height: 50px;
+    font-size: 18px;
+    font-family: PingFang SC, PingFang SC-Medium, sans-serif;
+    font-weight: 500;
+    color: #919191;
+    margin-bottom: 11px;
+}
+
+/*Section 我们的优势*/
+
+
+#便捷的操作 .section-header p, #免费提供会员账号 .section-header p{ margin-bottom: 11px;}
+#便捷的操作 .section-header h2, #免费提供会员账号  .section-header h2{margin-bottom: 8px; font-size: 28px;}
+#便捷的操作 .section-header span{font-size: 18px;}
+
+/*总有一个套餐适合你*/
+#总有一个套餐适合你 h2{
+    font-size: 24px;
+    font-family: PingFang SC, PingFang SC-Bold, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    color: #3b3e40;
+    margin-bottom: 6px;
+}
+#总有一个套餐适合你 span{margin-bottom: 12px;}
+#总有一个套餐适合你 button{
+    width: 228px !important;
+    height: 43px !important;
+    border-radius: 6px;
+}
+/*俱乐部*/
+#俱乐部{
+    text-align: center !important;
+}
+#俱乐部 button{
+    width: 196px !important;
+    height: 38px;
+    background: #49de94;
+    border-radius: 66px;
+}
+/*Footer*/
+footer{
+    width: 100%;
+    max-width: 100%;
+    padding: 27px 0;
+    /*height: 315px;*/
+    background: #151922;
+    position: relative;
+    overflow: hidden;
+}
+footer img{
+    width: 35px;
+    height: 35px;
+}
+footer h1{
+    font-size: 60px;
+    font-family: PingFang SC, PingFang SC-Bold, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #8d8d8d;
+    margin-bottom: 2px;
+}
+footer p{
+    font-size: 14px;
+    font-family: PingFang SC, PingFang SC-Medium, sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
+}
+footer ul.share_icon{
+    margin: 24px auto 24px auto;
+    width: 546px;
+}
+footer ul.share_text{
+    margin: 0 0 12px auto;
+    width: 760px;
+}
+footer ul.share_text a.text-w{
+    font-size: 13px !important;
+    font-family: PingFang SC, PingFang SC-Bold, sans-serif;
+    font-weight: 700;
+    text-align: LEFT;
+    color: #75777b !important;
+}
+footer ul.share_text a{ color: #ffffff !important;font-size: 12px !important;}
+@media only screen and (min-width: 374px) and (max-width: 424px)
+{
+    .section-header{
+        margin-top: 24px;
+    }
+    header nav .navbar-toggler{
+        padding: .25rem .75rem;
+        font-size: 1.125rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent !important;
+        border-radius: .5rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+    .app-info{
+        height: 96px;
+        padding: 1rem;
+    }
+    #slider .carousel-item img{
+        height: 380px;
+        content:url("/img/slider/1.jpg");
+        /*background-image: url("/img/slider/1.jpg") !important;*/
+        /*background-size: cover;*/
+    }
+    #无理由退款 .carousel-indicators{
+        bottom: -60px;
+    }
+    #无理由退款 img{
+        width: 100%;
+    }
+    #便捷的操作 .section-header, #便捷的操作 .section-header p, #便捷的操作 .section-header h2,
+    #无理由退款 .section-header, #无理由退款 .section-header p, #无理由退款 .section-header h2,
+    #免费提供会员账号 .section-header, #免费提供会员账号 .section-header p, #免费提供会员账号 .section-header h2,
+    #总有一个套餐适合你 .section-header, #总有一个套餐适合你 .section-header h2{
+        text-align: center !important;
+    }
+    #便捷的操作 .section-header{
+        margin-top: 4rem;
+    }
+    #总有一个套餐适合你 .section-header span{
+        width: 100%;
+        display: block;
+    }
+    #我们的优势 .card img{
+        margin: 0 auto;
+        width: 100% !important;
+        height: 290px;
+    }
+    footer{
+        height: 100%;
+    }
+    footer ul.share_icon{
+        width: 100%;
+    }
+    footer ul.share_icon .px-3{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    footer p{
+        margin-bottom: 16px !important;
+    }
+    .sidebar{
+        display: none !important;
+    }
+    .main-content{
+        margin-left: 0 !important;
+    }
+}
+@media (min-width: 576px) {
+    #便捷的操作 .section-header, #便捷的操作 .section-header p, #便捷的操作 .section-header h2,
+    #无理由退款 .section-header, #无理由退款 .section-header p, #无理由退款 .section-header h2,
+    #免费提供会员账号 .section-header, #免费提供会员账号 .section-header p, #免费提供会员账号 .section-header h2{
+        text-align: center;
+    }
+    .section-header{
+        margin-top: 24px;
+    }
+    #我们的优势 .card img{
+        margin: 0 auto;
+        width: 100% !important;
+        height: 290px;
+    }
+    .sidebar{
+        display: none !important;
+    }
+    .main-content{
+        margin-left: 0 !important;
+    }
+}
+@media (min-width: 768px) {
+    #便捷的操作 .section-header, #便捷的操作 .section-header p, #便捷的操作 .section-header h2,
+    #无理由退款 .section-header, #无理由退款 .section-header p, #无理由退款 .section-header h2,
+    #免费提供会员账号 .section-header, #免费提供会员账号 .section-header p, #免费提供会员账号 .section-header h2,
+    #总有一个套餐适合你 .section-header, #总有一个套餐适合你 .section-header h2{
+        text-align: left;
+    }
+    .section-header{
+        margin-top: 24px;
+    }
+    .sidebar{
+        display: block !important;
+    }
+    .main-content{
+        margin-left: 250px !important;
+    }
+}
+@media (max-width: 992px) {
+    .ct-docs-navbar {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    #便捷的操作 .section-header, #便捷的操作 .section-header p, #便捷的操作 .section-header h2,
+    #无理由退款 .section-header, #无理由退款 .section-header p, #无理由退款 .section-header h2,
+    #免费提供会员账号 .section-header, #免费提供会员账号 .section-header p, #免费提供会员账号 .section-header h2,
+    #总有一个套餐适合你 .section-header, #总有一个套餐适合你 .section-header h2{
+        text-align: left;
+    }
+    #我们的优势 .card img {
+        height: 199px;
+        width: 199px !important;
+        margin: 0 auto;
+    }
+    .sidebar{
+        display: block;
+    }
+    .main-content{
+        margin-left: 250px;
+    }
+}
+@media (min-width: 1200px){
+    #我们的优势 .card img {
+        height: 199px;
+        width: 199px !important;
+        margin: 0 auto;
+    }
+    .sidebar{
+        display: block;
+    }
+    .main-content{
+        margin-left: 250px;
+    }
+}
+@media (min-width: 1400px){
+    #我们的优势 .card img {
+        height: 199px;
+        width: 199px !important;
+        margin: 0 auto;
+    }
+    .sidebar{
+        display: block ;
+    }
+    .main-content{
+        margin-left: 250px;
+    }
+}
