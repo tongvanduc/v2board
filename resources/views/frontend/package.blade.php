@@ -554,7 +554,7 @@
             border-radius: 66px;
             background-color: #72e8ab !important;
             border-color: #72e8ab !important;
-            background-image: url("img/Ellipse 1.svg");
+            background-image: url("{{ asset('frontend/img/Ellipse 1.svg') }}");
         }
         .title-heading .form-check-input:checked{
             width: 97px;
@@ -606,7 +606,7 @@
         .title-heading .d-flex span{
             position: absolute;
             right: 182px;
-            background-image: url("img/Frame.svg");
+            background-image: url("{{ asset('frontend/img/Frame.svg') }}");
             background-size: cover;
             width: 37px;
             height: 37px;
