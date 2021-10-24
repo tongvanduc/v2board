@@ -343,6 +343,12 @@ footer ul.share_text a.text-w{
     color: #75777b !important;
 }
 footer ul.share_text a{ color: #ffffff !important;font-size: 12px !important;}
+#exampleModalToggle1 p.text {
+    padding: 10px;
+}
+p.text {
+    padding: 0 10px;
+}
 @media only screen and (min-width: 374px) and (max-width: 424px)
 {
     .section-header{
