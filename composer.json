@@ -54,6 +54,9 @@
             "App\\": "app/",
             "Library\\": "library/"
         },
+        "files": [
+            "helpers/func.php"
+        ],
         "classmap": [
             "database/seeds",
             "database/factories"
