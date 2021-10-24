@@ -34,7 +34,7 @@
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav navbar-nav-hover ml-auto">
+                        <ul class="navbar-nav navbar-nav-hover ml-auto" style="margin-left: 0px !important;">
                             <li class="nav-item px-3">
                                 <a class="nav-link" href="{{ route('frontend.index') }}">
                                     首页
@@ -55,7 +55,7 @@
 
                         </ul>
 
-                        <ul class="navbar-nav ms-auto">
+                        <ul class="navbar-nav ms-auto" style="margin-left: 39% !important;">
                             <button class="btn bg-gradient-green mb-0 rounded-pill w-91">帮助</button>
                             <li class="nav-item px-3">
                                 <a class="nav-link" href="#">
@@ -81,14 +81,14 @@
                     <p class="banner-p">全球各地 67 个国家的网站随心所欲查看<br></p>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.google.com/&#39;)">
                         <div id="google" class="box-one"></div>
                         <h1 id="box-text">Google<br></h1>
                         <p class="box-three">Google搜索引擎主要的搜索服务有：网页，图片，音乐，视频，地图，新闻，问答。</p>
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.facebook.com/&#39;)">
                         <div id="facebook" class="box-one"></div>
                         <h1 id="box-text">Facebook<br></h1>
                         <p class="box-three">Facebook
@@ -96,7 +96,7 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.instagram.com/&#39;)">
                         <div id="instagram" class="box-one"></div>
                         <h1 id="box-text">instagram<br></h1>
                         <p class="box-three">
@@ -104,14 +104,14 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://twitter.com/&#39;)">
                         <div id="twitter" class="box-one"></div>
                         <h1 id="box-text">Twitter<br></h1>
                         <p class="box-three">Twitter（通称推特）是一家美国社交网络及微博客服务的网站，是全球互联网上访问量最大的十个网站之一。是微博客的典型应用...</p>
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://netflix.com/&#39;)">
                         <div id="netflix" class="box-one"></div>
                         <h1 id="box-text">Netflix<br></h1>
                         <p class="box-three">Netflix(Nasdaq NFLX) 译为奈飞或网飞，是一家会员订阅制的流媒体播放平台
@@ -119,7 +119,7 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.vimeo.com/&#39;)">
                         <div id="vimeo" class="box-one"></div>
                         <h1 id="box-text">vimeo<br></h1>
                         <p class="box-three">
@@ -127,14 +127,14 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.youtube.com/&#39;)">
                         <div id="youtube" class="box-one"></div>
                         <h1 id="box-text">YouTube<br></h1>
                         <p class="box-three">在YouTube 上畅享您喜爱的视频和音乐,上传原创内容并与亲朋好友和全世界观众分享您的视频。</p>
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://tiktok.com/&#39;)">
                         <div id="tiktok" class="box-one"></div>
                         <h1 id="box-text">TikiTok<br></h1>
                         <p class="box-three">TikTok上更多都是年轻人的日常分享。<br>不过因为各个地方文化差异的区别，日韩港台地区的画风和国内的还是比较接近的，看韩国区是会感觉韩国人真心身材好会跳舞…
@@ -142,7 +142,7 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.medium.com/&#39;)">
                         <div id="medium" class="box-one"></div>
                         <h1 id="box-text">Medium<br></h1>
                         <p class="box-three">Medium
@@ -150,14 +150,14 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.pinterest.com/&#39;)">
                         <div id="pinterest" class="box-one"></div>
                         <h1 id="box-text">Pinterest<br></h1>
                         <p class="box-three">Pinterest是世界上最大的图片社交分享网站。网站允许用户创建和管理主题图片集合,例如事件、兴趣和爱好。</p>
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.dribbble.com/&#39;)">
                         <div id="dribbble" class="box-one"></div>
                         <h1 id="box-text">Dribbble<br></h1>
                         <p class="box-three">
@@ -165,14 +165,14 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.behance.net/&#39;)">
                         <div id="behance" class="box-one"></div>
                         <h1 id="box-text">Behance</h1>
                         <p class="box-three">Behance是为那些专业艺术家,那些以艺术谋生或者将艺术作为一个非常严肃的爱好的人建立的。</p>
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.gmail.com/&#39;)">
                         <div id="gmail" class="box-one"></div>
                         <h1 id="box-text">Gmail</h1>
                         <p class="box-three">Gmail 是一款直观、高效、实用的电子邮件应用。免费提供15GB存储空间,垃圾邮件更少,而且支持移动访问。 一个帐户,畅享 Google所有服务!
@@ -180,7 +180,7 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://tumblr.com/&#39;)">
                         <div id="tumblr" class="box-one"></div>
                         <h1 id="box-text">Tumblr<br></h1>
                         <p class="box-three">
@@ -188,7 +188,7 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.spotify.com/&#39;)">
                         <div id="spotify" class="box-one"></div>
                         <h1 id="box-text">Spotify<br></h1>
                         <p class="box-three">
@@ -196,7 +196,7 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.pornhub.com/&#39;)">
                         <div id="pornhub" class="box-one"></div>
                         <h1 id="box-text">Pornhub<br></h1>
                         <p class="box-three">Pornhub是一个全球最大的色情影片分享网站之一。2007年，成立于加拿大蒙特利尔，是属于大型的色情视频分享类网站，被视为是“色情
@@ -210,7 +210,7 @@
                     <p class="three-p">还支持更多的设计专业平台访问<br></p>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.figma.com/&#39;)">
                         <div id="figma" class="box-one"></div>
                         <h1 id="box-text">Figma<br></h1>
                         <p class="box-three">Figma 是一个 基于浏览器 的协作式 UI 设计工具,从推出至今越来越受到 UI 设计师的青睐,也有很多的设计团队投入了Figma
@@ -218,7 +218,7 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.zeplin.com/&#39;)">
                         <div id="zeplin" class="box-one"></div>
                         <h1 id="box-text">Zeplin<br></h1>
                         <p class="box-three">
@@ -227,7 +227,7 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.framer.com/&#39;)">
                         <div id="framer" class="box-one"></div>
                         <h1 id="box-text">Framer<br></h1>
                         <p class="box-three">
@@ -236,7 +236,7 @@
                     </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
-                    <div class="three-box">
+                    <div class="three-box" onclick="window.open(&#39;http://www.invisionapp.com/&#39;)">
                         <div id="invision" class="box-one"></div>
                         <h1 id="box-text">inVision Studio</h1>
                         <p class="box-three">InVision Studio 不仅仅是一个界面设计工具,更是一个标准化的数字产品设计平台,具备前所未有的创造和协作功能 响应式设计
