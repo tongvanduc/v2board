@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-expand-xxl navbar-light bg-white z-index-3 py-3  shadow">
     <div class="container">
-        <a class="navbar-brand" href="" rel="tooltip" title="Code by Minh Duc Designer" data-placement="bottom"
+        <a class="navbar-brand" href="{{ route('frontend.index') }}" rel="tooltip"
+           data-placement="bottom"
            target="_blank">
             <img src="{{ asset2('frontend/img/logo/logo%202.svg') }}" alt="logo" class="logo img-fluid">
         </a>
